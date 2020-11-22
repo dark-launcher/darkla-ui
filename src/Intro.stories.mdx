@@ -7,21 +7,23 @@ import designSystem from './design-system.png';
 
 # Get started
 
-Storybook Design System is a reusable component library that helps Storybook contributors build UIs faster. The goal is to make building durable UIs more productive and satisfying.
+Darkla UI is a reusable component library based on the Storybook Design System and helps developers create user interfaces with more agility.
+The goal is to make user interface creation more productive and satisfying.
 
 ## Install
 
-SDS components are written in React, and its stories are written in [Component Story Format](https://medium.com/storybookjs/component-story-format-66f4c32366df). It requires Storybook version 5.2-beta and up.
+Darkla UI components are written in React, and its stories are written in [Component Story Format](https://medium.com/storybookjs/component-story-format-66f4c32366df).
+It requires Storybook version 5.x and up.
 
-Add SDS to your project.
+Add Darkla UI to your project.
 
-`npm install --save @storybook/design-system`
+`npm install --save @darklauncher/darkui`
 
 ### **Use**
 
 Import components you want into your UI
 
-`import { Button, Badge } from ‘@storybook/design-system’;`
+`import { Button, Badge } from ‘@darklauncher/darkui’;`
 
 and use them like so
 
@@ -34,7 +36,7 @@ and use them like so
   )
 ```
 
-### **Browse SDS components in your own Storybook**
+### **Browse Darkla UI components in your own Storybook**
 
 Once you add the package, update your .storybook/config.js to import all files ending in .stories.js.
 
@@ -43,21 +45,22 @@ Once you add the package, update your .storybook/config.js to import all files e
   configure(require.context('../src', true, /.stories.js$/), module);
 ```
 
-### **Run and develop SDS locally**
+### **Run and develop Darkla UI locally**
 
-Clone the [SDS GitHub project](https://github.com/storybookjs/design-system) then start Storybook.
+Clone the [Darkla UI GitHub project](https://github.com/storybookjs/design-system) then start Storybook.
 
 `yarn && yarn run storybook`
 
 ## Used by
 
-- [Storybook homepage](https://storybook.js.org/)
-- [LearnStorybook.com](https://www.learnstorybook.com/)
-- [ChromaticQA.com](https://www.chromaticqa.com/)
+- [BXID Tournament](https://www.buxxid.com/)
 
-Note: this package is not used in Storybook's UI, but the visual design is identical.
 
 ### **Resources**
 
 - [Introducing Storybook Design System](https://medium.com/storybookjs/introducing-storybook-design-system-23fd9b1ac3c0)
 - [GitHub repository](https://github.com/storybookjs/design-system)
+
+### **Credits**
+
+[Storybook Design System GitHub project](https://github.com/storybookjs/design-system).
